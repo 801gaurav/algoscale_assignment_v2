@@ -5,5 +5,5 @@ urlpatterns = [
     url(r"^register/", register, name="register"),
     url(r'^login/$', user_login, name='login'),
     url(r'^logout/$', user_logout, name='logout'),
-    url(r'^get_all_users/$', get_all_users, name='get_all_users'),
+    url(r'^del_user/$', del_user, name='del_user'),
 ]
