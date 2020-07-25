@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from users.views import register,user_login,user_logout,get_all_users
+from users.views import register,user_login,user_logout,get_all_users,del_user
 
 urlpatterns = [
     url(r"^register/", register, name="register"),
